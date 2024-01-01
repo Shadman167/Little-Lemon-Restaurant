@@ -1,19 +1,16 @@
 
-import './App.css';
-import Header from './Header.js';
-import Nav from './Nav.js';
-import Footer from './Footer.js';
-
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Routing from "./components/Routing";
+import Footer from "./components/Footer";
 function App() {
-  // Continuing in App.js
   return (
     <>
-      <Header />
-      <Nav />
+      <Navbar />
+      <Routing />
       <Footer />
     </>
   );
-
 }
 
 export default App;
